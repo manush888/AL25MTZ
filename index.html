@@ -56,11 +56,11 @@
                 if (mobileRegex.test(navigator.userAgent)) {
                     setTimeout(function() {
                         window.location.href = "./Mobile/";
-                    }, 3000);
+                    }, 5000);
                 } else {
                     setTimeout(function() {
                         window.location.href = "./PC/";
-                    }, 3000);
+                    }, 5000);
                 }
             }
 
@@ -70,7 +70,7 @@
             // Show content after a delay
             setTimeout(function() {
                 $('.content').css('opacity', '1');
-            }, 1000); // Show content after 2 seconds
+            }, 2000); // Show content after 2 seconds
         });
     </script>
 </head>
