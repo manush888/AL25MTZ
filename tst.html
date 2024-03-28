@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Device Redirect</title>
+  <script>
+    // Function to detect the device and redirect accordingly
+    function redirectBasedOnDevice() {
+      // Regular expression to match mobile devices
+      var mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+      
+      // Check if the user agent matches the regular expression for mobile devices
+      if (mobileRegex.test(navigator.userAgent)) {
+        // Redirect to the mobile version of the webpage
+        window.location.href = "mobile.html";
+      } else {
+        // Redirect to the desktop version of the webpage
+        window.location.href = "desktop.html";
+      }
+    }
+
+    // Call the function when the page loads
+    window.onload = redirectBasedOnDevice;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
