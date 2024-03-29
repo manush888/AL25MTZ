@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'raleway';
+    src: url(./fonts/Raleway.ttf);
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url(./fonts/Pacifico.ttf);
+}
+
+@font-face {
+    font-family: 'redditmono';
+    src: url(./fonts/RedditMono.ttf);
+}
+
+@font-face {
+    font-family: 'rubikscribble';
+    src: url(./fonts/RubikScribble.ttf);
+}
+
+@font-face {
+    font-family: 'EduNSWACTFoundation';
+    src: url(./fonts/EduNSWACTFoundation.ttf);
+}

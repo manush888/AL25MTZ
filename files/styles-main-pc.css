@@ -2,9 +2,16 @@ body {
     margin: 0;
 }
 
+.page1 {
+    height: 100vh;
+    width: 100%;
+}
+
 nav {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 7;
+    position: relative;
 }
   
 .container {
@@ -53,8 +60,9 @@ a:active {
     left: 40px;
     top: 15px;
     padding: 10px;
-    border: 4px solid azure;
+    border: 4px solid #808080;
     border-radius: 52px;
+    z-index: 9;
 }
 
 .logo img {
@@ -62,3 +70,23 @@ a:active {
     width: 70px;
 }
   
+.message {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    z-index: 10;
+    top: 0px;
+}
+
+.message .wlcm {
+    color: aqua;
+    font-size: 90px;
+}
+
+.ln2 {
+    font-family: sans-serif;
+}
