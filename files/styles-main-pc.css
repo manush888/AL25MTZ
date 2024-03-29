@@ -10,7 +10,7 @@ body {
 nav {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    z-index: 11;
+    z-index: 6;
     position: relative;
 }
   
@@ -62,7 +62,7 @@ a:active {
     padding: 10px;
     border: 4px solid #808080;
     border-radius: 52px;
-    z-index: 12;
+    z-index: 7;
 }
 
 .logo img {
