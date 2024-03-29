@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loading Redirect</title>
 
-    <!-- jQuery Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- Custom Styles -->
     <style>
         body {
             margin: 0;
@@ -51,10 +49,10 @@
 
     </style>
 
-    <!-- Custom Script -->
+    
     <script>
         $(document).ready(function() {
-            // Function to detect the device and redirect accordingly
+            
             function redirectBasedOnDevice() {
                 var mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
         
@@ -69,13 +67,11 @@
                 }
             }
 
-            // Call the function when the page loads
             redirectBasedOnDevice();
 
-            // Show content after a delay
             setTimeout(function() {
                 $('.content').css('opacity', '1');
-            }, 2000); // Show content after 2 seconds
+            }, 2000);
         });
     </script>
 </head>
