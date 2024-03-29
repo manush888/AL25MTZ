@@ -4,7 +4,7 @@ body {
 
 header {
     height: 70px;
-    background-color: #333;
+    background: linear-gradient(150deg , #5a5a5a , #333);
 }
 
 header button {
@@ -18,22 +18,7 @@ header button {
     top: 15px;
 }
   
-a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s, transform 0.2s;
-}
-  
-a:hover {
-    background-color: #555;
-    transform: translateY(-3px);
-}
-  
-a:active {
-    transform: translateY(1px);
-}
+
 
 .logo {
     background-color: #2c3235;
@@ -48,4 +33,45 @@ a:active {
 .logo img {
     height: 70px;
     width: 70px;
+}
+
+.blur {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: #529bb859;
+    backdrop-filter: blur(15px);
+    top: 0px;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+  
+a {
+    text-decoration: none;
+    color: #686868;
+    transition: background-color 0.3s;
+}
+  
+li:hover {
+    background-color: #55555583;
 }
