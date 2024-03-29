@@ -6,6 +6,8 @@
     <title>Loading Redirect</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./files/detect.min.js"></script>
+
 
     <style>
         body {
@@ -52,11 +54,9 @@
     
     <script>
         $(document).ready(function() {
-            
             function redirectBasedOnDevice() {
-                var mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-        
-                if (mobileRegex.test(navigator.userAgent)) {
+                // Check if the window's inner width is below a certain threshold
+                if ($(window).innerWidth() < 768) {
                     setTimeout(function() {
                         window.location.href = "./Mobile/";
                     }, 5000);
