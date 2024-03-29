@@ -90,3 +90,8 @@ a:active {
 .ln2 {
     font-family: sans-serif;
 }
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+}
