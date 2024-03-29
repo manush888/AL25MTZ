@@ -1,1 +1,1 @@
-<img src="./files/logo-qb.png" alt=""
+<img src="./files/logo-qb.png" alt="">
