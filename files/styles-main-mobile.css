@@ -5,6 +5,8 @@ body {
 header {
     height: 70px;
     background: linear-gradient(150deg , #5a5a5a , #333);
+    z-index: 10;
+    position: relative;
 }
 
 header button {
@@ -28,6 +30,7 @@ header button {
     padding: 10px;
     border: 4px solid azure;
     border-radius: 52px;
+    z-index: 11;
 }
 
 .logo img {
@@ -39,7 +42,7 @@ header button {
     height: 100vh;
     width: 100%;
     position: absolute;
-    z-index: 2;
+    z-index: 20;
     background-color: #529bb859;
     backdrop-filter: blur(15px);
     top: 0px;

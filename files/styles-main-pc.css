@@ -73,29 +73,3 @@ a:active {
     height: 70px;
     width: 70px;
 }
-  
-.message {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    flex-direction: column;
-    z-index: 5;
-    top: 0px;
-}
-
-.message .wlcm {
-    color: aqua;
-    font-size: 90px;
-}
-
-.ln2 {
-    font-family: sans-serif;
-}
-
-.page2 {
-    height: 100vh;
-    width: 100%;
-}
