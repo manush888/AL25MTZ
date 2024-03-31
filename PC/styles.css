@@ -23,3 +23,24 @@
     height: 100vh;
     width: 100%;
 }
+
+.page2 .container2 {
+    margin-left: 80px; /* Ensure content avoids sidebar */
+    padding: 20px 20px 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.lnkbtn {
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.choise {
+    margin: 0;
+}
