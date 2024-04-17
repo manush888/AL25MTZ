@@ -67,14 +67,21 @@ li {
     display: block;
     padding: 10px 15px;
     border-radius: 5px;
+    transition: background-color 900ms;
+    margin: 10px;
 }
   
 a {
     text-decoration: none;
-    color: #686868;
-    transition: background-color 0.3s;
+    color: #414141;
+    transition: color 1s;
+
 }
   
 li:hover {
-    background-color: #55555583;
+    background-color: #3b3b3b80;
+}
+
+li:hover a {
+    color: rgb(255, 255, 255);
 }
