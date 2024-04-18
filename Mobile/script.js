@@ -12,5 +12,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     changeFont();
 
-    setInterval(changeFont, 900);
+    setInterval(changeFont, 5000);
 });
