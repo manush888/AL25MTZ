@@ -20,27 +20,78 @@
 }
 
 .page2 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
 .page2 .container2 {
-    margin-left: 80px; /* Ensure content avoids sidebar */
-    padding: 20px 20px 20px 50px;
+    padding: 20px 0px 20px 0px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 10vw;
+    justify-content: center;
+}
+
+.fu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: pacifico;
+    font-size: 1.8em;
+}
+
+.fu p {
+    margin-bottom: 0;
 }
 
 .lnkbtn {
-    height: 200px;
+    height: 300px;
     width: 250px;
     margin: 10px;
-    background-color: aquamarine;
-    border: 0px;
+    background-color: white;
+    border: 1px solid black;
     border-radius: 20px;
 }
 
-.choise {
+.lnkbtn .img {
+    width: 250px;
+    height: 180px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.lnkbtn .p p {
+    padding: 10px;
     margin: 0;
+    font-size: 1.4em;
+    font-family: EduNSWACTFoundation;
+}
+
+.pstpapers .img {
+    background: url(../files/pastpaper.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.unittests .img {
+    background: url(../files/unittest.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.timemanagment .img {
+    background: url(../files/timemanagement.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lnkbtn .p {
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
 }
