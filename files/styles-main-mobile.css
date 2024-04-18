@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     height: 70px;
     background: linear-gradient(150deg , #5a5a5a , #333);

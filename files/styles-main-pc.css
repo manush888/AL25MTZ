@@ -28,6 +28,7 @@ nav {
     padding: 20px;
     position: relative;
     right: 60px;
+    z-index: 10;
 }
   
 nav {
