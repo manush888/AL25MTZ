@@ -9,3 +9,30 @@
     justify-content: center;
     top: 0px;
 }
+
+.lnkbtn {
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.lnkbtn a {
+    padding: 0;
+}
+
+.lnkbtn .img {
+    width: 250px;
+    height: 180px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.lnkbtn .p p {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.4em;
+    font-family: EduNSWACTFoundation;
+    color: #000000;
+}

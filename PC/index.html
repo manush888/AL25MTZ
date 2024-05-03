@@ -11,13 +11,13 @@
     <script src="../files/jquery3.7.1.js"></script>
     <script src="./script.js"></script>
     <style>
-        /* Style the canvas container */
+        
         #particles-js {
             position: absolute;
             top: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(170deg , #808080 , #55666e , #79696b);
+            background: linear-gradient(160deg , #808080 , #5a87b1 , #a77986);
             z-index: 1;
         }
     </style>
@@ -40,7 +40,7 @@
         </nav>
 
         <div class="message">
-            <div class="wlcm" id="cngtxt">WELCOME...</div>
+            <div class="wlcm" id="cngtxt">WELCOME</div>
             <div class="ln2">#YES YOU CAN MAKE IT HAPPENS</div>
         </div>
 
@@ -83,26 +83,26 @@
     </div>
 
     <script>
-        // Initialize particles.js
+        
         particlesJS('particles-js', {
             "particles": {
                 "number": {
-                    "value": 300, // Number of particles
+                    "value": 300,
                     "density": {
                         "enable": true,
-                        "value_area": 800 // Area size for particle density
+                        "value_area": 800 
                     }
                 },
                 "shape": {
-                    "type": "circle", // Particle shape
+                    "type": "circle",
                     "stroke": {
                         "width": 0,
                         "color": "#ffffff"
                     }
                 },
                 "size": {
-                    "value": 4, // Particle size
-                    "random": true, // Randomize particle size
+                    "value": 4,
+                    "random": true,
                     "anim": {
                         "enable": false,
                         "speed": 40,
@@ -111,13 +111,13 @@
                     }
                 },
                 "move": {
-                    "enable": true, // Enable particle movement
-                    "speed": 1, // Particle speed
-                    "direction": "none", // Movement direction (can be: "none", "top", "top-right", "right", "bottom-right", "bottom", "bottom-left", "left", "top-left")
-                    "random": true, // Randomize movement direction
-                    "straight": false, // Straight line movement
-                    "out_mode": "out", // Movement out mode (can be: "out", "bounce")
-                    "bounce": false, // Bounce off screen edges
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
                     "attract": {
                         "enable": false,
                         "rotateX": 600,
