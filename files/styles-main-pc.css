@@ -54,7 +54,7 @@ a {
     transition: background-color 0.3s, transform 0.2s;
 }
   
-a:hover {
+.container a:hover {
     background-color: #555;
     transform: translateY(-3px);
 }
@@ -77,4 +77,10 @@ a:active {
 .logo img {
     height: 70px;
     width: 70px;
+}
+
+.lnkbtn a {
+    display: block;
+    padding: 0;
+    height: 300px;
 }

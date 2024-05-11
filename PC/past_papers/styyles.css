@@ -1,15 +1,14 @@
-
-.container2 {
+.page2 {
     min-height: 100vh;
     width: 100%;
-    position: absolute;
+}
+
+.page2 .container2 {
+    min-height: 95vh;
     display: flex;
-    align-items: center;
-    top: 0;
-    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    align-content: center;
 }
 
 .lnkbtn {
@@ -37,4 +36,18 @@
     font-size: 1.4em;
     font-family: EduNSWACTFoundation;
     color: #000000;
+}
+
+.si .img {
+    background: url(../../files/si.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eng .img {
+    background: url(../../files/eng.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
