@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="https://manush888.github.io/AL25MTZ/files/font-style.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
             background-color: #f8f9fa;
             margin: 0;
             padding: 0;
@@ -14,14 +14,16 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            flex-direction: column;
+            position: relative;
         }
-        .container {
-            text-align: center;
-        }
-        .illustration {
-            width: 200px;
-            height: auto;
-            margin-bottom: 20px;
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.7;
+            z-index: -1;
         }
         h1 {
             font-size: 3em;
@@ -41,14 +43,24 @@
         a:hover {
             text-decoration: underline;
         }
+
+        .nf {
+            font-family: raleway;
+            font-size: 5rem;
+        }
+        
+        .words {
+            font-family: pacifico;
+        }
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <img class="illustration" src="https://manush888.github.io/AL25MTZ/files/logo-qb.png" alt="Illustration">
-        <h1>Oops!</h1>
-        <br><br>
-        <p>The page you're looking for cannot be found.</p>
+    <div class="logo">
+        <img src="https://manush888.github.io/AL25MTZ/files/logo-qb.png" alt="Logo" style="height: 300px;">
     </div>
+    <h1 class="nf">404</h1>
+    <h1 class="words">Page Not Found</h1>
+    <p>Oops! The page you're looking for cannot be found.</p>
 </body>
 </html>
