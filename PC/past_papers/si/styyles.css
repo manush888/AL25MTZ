@@ -21,9 +21,7 @@
 }
 
 .lnkbtn a {
-    display: block;
     padding: 0;
-    height: 300px;
 }
 
 .lnkbtn .img {
@@ -40,15 +38,22 @@
     color: #000000;
 }
 
-.si .img {
-    background: url(../../files/si.png);
+.mtz .img {
+    background: url(../../../files/mtz.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.eng .img {
-    background: url(../../files/eng.png);
+.phy6 .img {
+    background: url(../../../files/p6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.chem .img {
+    background: url(../../../files/chem.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

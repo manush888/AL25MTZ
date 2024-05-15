@@ -51,3 +51,73 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.y16 .img {
+    background: url(../../../../files/2016.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.y17 .img {
+    background: url(../../../../files/2017.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.y18 .img {
+    background: url(../../../../files/2018.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.y19 .img {
+    background: url(../../../../files/2019.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.y20 .img {
+    background: url(../../../../files/2020.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.y21 .img {
+    background: url(../../../../files/2021.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.y22 .img {
+    background: url(../../../../files/2022.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pt1 .img {
+    background: url(../../../../files/pt1.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pt2 .img {
+    background: url(../../../../files/pt2.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shm .img {
+    background: url(../../../../files/shm.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
