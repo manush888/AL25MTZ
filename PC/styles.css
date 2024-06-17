@@ -88,7 +88,7 @@
 
 .guidance .img {
     background: url(../files/guide.jpeg);
-    background-position: center;
+    background-position-y: 0%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -102,7 +102,14 @@
 
 .syllabus .img {
     background: url(../files/syllabi.jpeg);
-    background-position-y: 20%;
+    background-position-y: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.resourcebooks .img {
+    background: url(../files/reosuce.jpeg);
+    background-position-y: 10%;
     background-size: cover;
     background-repeat: no-repeat;
 }

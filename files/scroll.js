@@ -2,8 +2,14 @@ window.addEventListener('load', function() {
     let hasScrolledToSection2 = false;
   
     document.addEventListener('scroll', function() {
-      const section1 = document.getElementById('section1');
-      const section2 = document.getElementById('section2');
+      const section1 = document.getElementById('page1');
+      const section2 = document.getElementById('page2');
+
+      if (!section1 || !section2) {
+        // If either section is not found, do not proceed
+        console.log('404');
+        return;
+      }
   
       const scrollPosition = window.scrollY;
       const section1Top = section1.offsetTop;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll to Next Element</title>
+  <style>
+    html {
+        transition-duration: 10s;
+        scroll-behavior: smooth;
+    }
+
+    
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+    section {
+      width: 100%;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    #section1 {
+      height: 100vh;
+      background-color: lightblue;
+    }
+    #section2 {
+      height: 300vh;
+      background-color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <section id="section1">Section 1</section>
+  <section id="section2">Section 2</section>
+
+  <script src="scroll.js"></script>
+</body>
+</html>
