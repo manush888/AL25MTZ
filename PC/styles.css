@@ -100,6 +100,13 @@
     background-repeat: no-repeat;
 }
 
+.syllabus .img {
+    background: url(../files/syllabi.jpeg);
+    background-position-y: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .lnkbtn .p {
     height: 119px;
     display: flex;
