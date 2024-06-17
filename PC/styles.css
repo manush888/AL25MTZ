@@ -80,15 +80,22 @@
 }
 
 .unittests .img {
-    background: url(../files/unittest.jpg);
-    background-position: center;
+    background: url(../files/unittest.jpeg);
+    background-position-y: 70%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .guidance .img {
-    background: url(../files/timemanagement.jpg);
+    background: url(../files/guide.jpeg);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.termtest .img {
+    background: url(../files/termtest.jpeg);
+    background-position-y: 20%;
     background-size: cover;
     background-repeat: no-repeat;
 }

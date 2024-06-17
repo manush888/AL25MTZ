@@ -7,9 +7,16 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./files/detect.min.js"></script>
+    <link rel="stylesheet" href="./files/font-style.css">
+    <link rel="shortcut icon" href="./files/loading.png" type="image/x-icon">
 
 
     <style>
+
+        * {
+            user-select: none;
+        }
+
         body {
             margin: 0;
             padding: 0;
@@ -26,14 +33,25 @@
         }
 
         .loading-image {
-            animation: rotate 2s linear infinite;
-            height: 80px;
+            animation: rotate 5s linear infinite;
+            height: 150px;
         }
 
         .content {
-            margin-top: 20px;
             opacity: 0;
-            transition: opacity 0.5s ease-in-out;
+            font-family: 'raleway';
+        }
+
+        .p1 {
+            margin-top: 20px;
+            transition: opacity 1s ease-in;
+            font-size: 20px;
+        }
+
+        .p2 {
+            margin-top: -40px;
+            transition: opacity 0.7s ease-in;
+            font-size: 18px;
         }
 
         @keyframes rotate {
@@ -59,19 +77,22 @@
                 if ($(window).innerWidth() < 700) {
                     setTimeout(function() {
                         window.location.href = "./Mobile/";
-                    }, 5000);
+                    }, 10000);
                 } else {
                     setTimeout(function() {
                         window.location.href = "./PC/";
-                    }, 5000);
+                    }, 10000);
                 }
             }
 
             redirectBasedOnDevice();
 
             setTimeout(function() {
-                $('.content').css('opacity', '1');
+                $('.p1').css('opacity', '1');
             }, 2000);
+            setTimeout(function() {
+                $('.p2').css('opacity', '1');
+            }, 3500);
         });
     </script>
 </head>
@@ -81,8 +102,11 @@
             <img src="./files/loading-qb.png" alt="Loading..." class="loading-image">
         </div>
 
-        <div class="content">
+        <div class="content p1">
             <p>Please wait, detecting your device type for redirecting...</p>
+        </div>
+        <div class="content p2">
+            <p>Hold tight</p>
         </div>
     </div>
 </body>

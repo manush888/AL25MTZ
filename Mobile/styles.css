@@ -95,14 +95,14 @@
 }
 
 .unittests .img {
-    background: url(../files/unittest.jpeg);
+    background: url(../files/unittest.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.timemanagment .img {
-    background: url(../files/timemanagement.jpeg);
+.guidance .img {
+    background: url(../files/timemanagement.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
