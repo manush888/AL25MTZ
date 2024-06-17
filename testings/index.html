@@ -3,32 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Persistent Background Color</title>
+    <title>Project AL25MTZ</title>
+    <link rel="shortcut icon" href="../files/logo-qb.png" type="image/SVG">
+    <link rel="stylesheet" href="../files/styles-main-pc.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../files/font-style.css">
+    <link rel="stylesheet" href="../files/theme.css"> <!-- Include the theme.css -->
+    <script src="../files/jquery3.7.1.js"></script>
+    <script src="../files/particle.min.js"></script>
+    <style>
+        #particles-js {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(160deg , #808080 , #5a87b1 , #a77986);
+            z-index: 1;
+        }
+
+        .theme {
+            position: fixed;
+            top: 200px;
+            left: 50px;
+            z-index: 15;
+        }
+    </style>
 </head>
-<body>
-    <h1>Choose Background Color</h1>
-    <button onclick="setBackgroundColor('lightblue')">Light Blue</button>
-    <button onclick="setBackgroundColor('lightgreen')">Light Green</button>
-    <button onclick="setBackgroundColor('lightcoral')">Light Coral</button>
-    <button onclick="setBackgroundColor('lightyellow')">Light Yellow</button>
+<body data-theme="light">
+    <!-- Theme Toggle Button -->
+    <button class="theme" onclick="if (1 == 1) {
+        toggleTheme()
+    }">Toggle Theme</button>
 
+    <div class="page1" id="page1">
+        <div class="logo"><img src="../files/logo-qb.png" alt=""></div>
+
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./about/">About</a></li>
+                    <li><a href="./contact/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="message">
+            <div class="wlcm" id="cngtxt">WELCOME</div>
+            <div class="ln2">#YES YOU CAN MAKE IT HAPPEN</div>
+        </div>
+
+        <div id="particles-js"></div>
+    </div>
+
+    <div class="page2" id="page2">
+        <div class="fu">
+            <p>For You</p>
+        </div>
+
+        <div class="container2">
+            <div class="pstpapers lnkbtn">
+                <a href="./past_papers/">
+                    <div class="img"></div>
+                    <div class="p">
+                        <p>G.C.E. AL Pastpapers</p>
+                    </div>
+                </a>
+            </div>
+            <div class="unittests lnkbtn">
+                <a href="./unit_tests/">
+                    <div class="img"></div>
+                    <div class="p">
+                        <p>Unit Test Papers</p>
+                    </div>
+                </a>
+            </div>
+            <div class="guidance lnkbtn">
+                <a href="./guidance/">
+                    <div class="img"></div>
+                    <div class="p">
+                        <p>Guidance for You</p>
+                    </div>
+                </a>
+            </div>
+            <div class="termtest lnkbtn">
+                <a href="./term_test/">
+                    <div class="img"></div>
+                    <div class="p">
+                        <p>Term Test Papers</p>
+                    </div>
+                </a>
+            </div>
+            <div class="syllabus lnkbtn">
+                <a href="./syllabus/">
+                    <div class="img"></div>
+                    <div class="p">
+                        <p>Syllabi</p>
+                    </div>
+                </a>
+            </div>
+            <div class="resourcebooks lnkbtn">
+                <a href="./resources/">
+                    <div class="img"></div>
+                    <div class="p">
+                        <p>Resource Book</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../files/scroll.js"></script>
+    <script src="theme.js"></script> <!-- Load theme.js at the end of the body -->
     <script>
-        // Function to set the background color and save it to local storage
-        function setBackgroundColor(color) {
-            document.body.style.backgroundColor = color;
-            localStorage.setItem('bgColormoa', color);
-        }
-
-        // Function to load the background color from local storage
-        function loadBackgroundColor() {
-            const savedColor = localStorage.getItem('bgColormoa');
-            if (savedColor) {
-                document.body.style.backgroundColor = savedColor;
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 300,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800 
+                    }
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#ffffff"
+                    }
+                },
+                "size": {
+                    "value": 4,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": false,
+                        "mode": "repulse"
+                    }
+                },
+                "modes": {
+                    "repulse": {
+                        "distance": 100,
+                        "duration": 0.4
+                    }
+                }
             }
-        }
-
-        // Load the background color when the page loads
-        document.addEventListener('DOMContentLoaded', loadBackgroundColor);
+        });
     </script>
 </body>
 </html>

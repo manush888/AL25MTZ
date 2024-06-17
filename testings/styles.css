@@ -1,0 +1,156 @@
+.message {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    z-index: 5;
+    top: 0px;
+}
+
+.message .wlcm {
+    color: aqua;
+    font-size: 90px;
+}
+
+.ln2 {
+    font-family: sans-serif;
+}
+
+.page2 {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.page2 .container2 {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10vw;
+    justify-content: center;
+}
+
+.fu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: pacifico;
+    font-size: 1.8em;
+}
+
+.fu p {
+    margin-bottom: 0;
+}
+
+.lnkbtn {
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.lnkbtn a {
+    padding: 0;
+}
+
+.lnkbtn .img {
+    width: 250px;
+    height: 180px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.lnkbtn .p p {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.4em;
+    font-family: EduNSWACTFoundation;
+    color: #000000;
+}
+
+.pstpapers .img {
+    background: url(../files/pastpaper.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.unittests .img {
+    background: url(../files/unittest.jpeg);
+    background-position-y: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.guidance .img {
+    background: url(../files/guide.jpeg);
+    background-position-y: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.termtest .img {
+    background: url(../files/termtest.jpeg);
+    background-position-y: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.syllabus .img {
+    background: url(../files/syllabi.jpeg);
+    background-position-y: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.resourcebooks .img {
+    background: url(../files/reosuce.jpeg);
+    background-position-y: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lnkbtn .p {
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+/* theme.css */
+
+/* Light theme */
+body[data-theme="light"] {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --nav-background-color: #f8f9fa;
+    --nav-text-color: #000000;
+}
+
+/* Dark theme */
+body[data-theme="dark"] {
+    --background-color: #343a40;
+    --text-color: #ffffff;
+    --nav-background-color: #212529;
+    --nav-text-color: #ffffff;
+}
+
+/* Apply the theme variables */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    color: var(--nav-text-color);
+}
+
+nav a {
+    color: var(--nav-text-color);
+}

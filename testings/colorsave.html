@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Background Color</title>
+</head>
+<body>
+    <h1>Choose Background Color</h1>
+    <button onclick="setBackgroundColor('lightblue')">Light Blue</button>
+    <button onclick="setBackgroundColor('lightgreen')">Light Green</button>
+    <button onclick="setBackgroundColor('lightcoral')">Light Coral</button>
+    <button onclick="setBackgroundColor('lightyellow')">Light Yellow</button>
+
+    <script>
+        // Function to set the background color and save it to local storage
+        function setBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+            localStorage.setItem('bgColormoa', color);
+        }
+
+        // Function to load the background color from local storage
+        function loadBackgroundColor() {
+            const savedColor = localStorage.getItem('bgColormoa');
+            if (savedColor) {
+                document.body.style.backgroundColor = savedColor;
+            }
+        }
+
+        // Load the background color when the page loads
+        document.addEventListener('DOMContentLoaded', loadBackgroundColor);
+    </script>
+</body>
+</html>
