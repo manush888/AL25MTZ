@@ -107,3 +107,19 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.mpc {
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 170px;
+    font-family: EduNSWACTFoundation;
+    color: aliceblue;
+    
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.mpc p {
+    margin-top: 0;
+}
