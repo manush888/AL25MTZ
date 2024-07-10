@@ -7,8 +7,9 @@
     min-height: 95vh;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center;    
     justify-content: center;
+    align-content: center;
 }
 
 .lnkbtn {
