@@ -39,16 +39,30 @@
     color: #000000;
 }
 
-.si .img {
-    background: url(../../files/si.png);
-    background-position: center;
+.pt1 .img {
+    background: url(../../../files/mtzpt1.png);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.eng .img {
-    background: url(../../files/eng.png);
-    background-position: center;
+.pt2 .img {
+    background: url(../../../files/mtzpt2.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mtzb .img {
+    background: url(../../../files/mtzbeginners.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mtzq .img {
+    background: url(../../../files/mtzpq.png);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
