@@ -1,0 +1,157 @@
+.page2 {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.page2 .container2 {
+    min-height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+    justify-content: center;
+    align-content: center;
+}
+
+.lnkbtn {
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.lnkbtn a {
+    padding: 0;
+}
+
+.lnkbtn .img {
+    width: 250px;
+    height: 180px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.lnkbtn .p p {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.4em;
+    font-family: EduNSWACTFoundation;
+    color: #000000;
+}
+
+.pl .img {
+    background: url(../../../files/phy6l.jpeg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pb .img {
+    background: url(../../../files/phy6p.jpg);
+    background-position: top;
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+
+.u1 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u2 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u3 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u4 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u5 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u6 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u7 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u8 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u9 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u10 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u11 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u12 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u13 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.u14 .img {
+    background: url(../../../files/pu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
